@@ -1,0 +1,98 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8008731500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User lands on main website",
+            "match": {
+              "location": "stepDefinition.step_RadioButton.user_lands_on_main_website()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-01T09:58:36.860Z",
+        "line": 7,
+        "name": "User counts the sum of numbers in the table",
+        "description": "",
+        "id": "to-verify-the-auto-country-suggestion-functionality;user-counts-the-sum-of-numbers-in-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 630029700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is able to see the values present in the table",
+            "match": {
+              "location": "stepDefinition.step_SumTable.user_is_able_to_see_the_values_present_in_the_table()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is able to add all the values present in the table",
+            "match": {
+              "location": "stepDefinition.step_SumTable.user_is_able_to_add_all_the_values_present_in_the_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the sum of all the values are same as displayed on the UI",
+            "match": {
+              "location": "stepDefinition.step_SumTable.the_sum_of_all_the_values_are_same_as_displayed_on_the_ui()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 860782200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user closes browser",
+            "match": {
+              "location": "stepDefinition.step_RadioButton.user_closes_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SumTable"
+          }
+        ]
+      }
+    ],
+    "name": "To verify the Auto country suggestion Functionality",
+    "description": "",
+    "id": "to-verify-the-auto-country-suggestion-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/SumTable.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="9.923">
+    <testcase classname="To verify the Auto country suggestion Functionality" name="User counts the sum of numbers in the table" time="9.656">
+        <system-out>
+            <![CDATA[Given User lands on main website............................................passed
+Given user is able to see the values present in the table...................passed
+When user is able to add all the values present in the table................passed
+Then the sum of all the values are same as displayed on the UI..............passed
+And user closes browser.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
